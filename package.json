@@ -1,0 +1,12 @@
+{
+  "name": "notes-reminder-app-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack React Notes & Reminders Web Application",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test:server": "npm --prefix server test"
+  }
+}
